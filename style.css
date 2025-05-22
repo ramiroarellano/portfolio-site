@@ -1,5 +1,19 @@
 body {
     background-color: aquamarine;
     font-family: 'Fira Code', monospace;
+margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1, p, img {
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    text-align: center;
 }
 
